@@ -56,7 +56,8 @@ Image obtained from Polyvore.com. Credit FOTKI.YANDEX.RU.
 If we look only at one crime - murder - the picture looks noticeably different, though, doesn't it?
 </div>
 
-```{r, echo=TRUE, fig.width=7, fig.height=5, fig.align='center'}
+
+```r
     library(ggplot2); library(scales)
     csv <- read.csv("working_files/CrimeTotal.csv", header=FALSE, skip=6)
     c2 <- csv[1:53,c(1, 4)]
@@ -65,8 +66,9 @@ If we look only at one crime - murder - the picture looks noticeably different, 
     years <- seq(1960, 2012, 5)
     ggplot(data=c2, aes(x=year, y=murders, group=1)) + geom_point() + geom_line(size=1, aes(col=murders)) + geom_smooth() +
     scale_x_discrete(name="year", breaks = years, labels=as.character(years))
-
 ```
+
+<img src="assets/fig/unnamed-chunk-1-1.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" style="display: block; margin: auto;" />
     
 
 ---
