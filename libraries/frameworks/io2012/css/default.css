@@ -315,6 +315,7 @@ slides > slide:not(.nobackground):before {
 
 
 /* line 183, ../scss/default.scss */
+/* slide numbering is acting weird. Removing
 slides > slide:not(.nobackground):after {
   font-size: 12pt;
   content: attr(data-slide-num) "/" attr(data-total-slides);
@@ -323,6 +324,7 @@ slides > slide:not(.nobackground):after {
   right: 60px;
   line-height: 1.9;
 }
+*/
 /* line 194, ../scss/default.scss */
 slides > slide.title-slide:after {
   content: '';

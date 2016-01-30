@@ -33,7 +33,27 @@ ul li {
   margin-bottom: 0;
 }
 
-.sellit {
+.sellit p{
   font-size: +2;
   color: blue;
+  line-height: 1.2em;
+}
+
+.finl {
+  font-size: 24pt;
+  color: green;
+  text-align: center;
+  font-weight: bold;
+}
+
+.simple_ital {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.exeunt {
+  padding-top: 6em;
+  float: right;
+  color: gray;
+  font-style: italic;
 }

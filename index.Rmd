@@ -1,6 +1,6 @@
 ---
 title       : How Bad is the Violence?
-subtitle    : Part 2 o fthe Coursera Developing Data Products class final project
+subtitle    : Part 2 of the Coursera Developing Data Products class final project
 author      : irv
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
@@ -73,16 +73,21 @@ If we look only at one crime - murder - the picture looks noticeably different, 
 
 ## Look closer at the data
 
-* The initial plot makes it look like aggraVated assault rules and murder and rape are small potatoes. 
-* The second plot shows that this was an illusion, created by the differing scales of the different crimes.
-*So if you want to get a better understanding of violence in America the last many years, what do you do?
+* The initial plot makes it look like aggravated assault rules and murder and rape are insignificant. 
+* The second plot shows that this was at least partly an illusion, created by the differing scales of the different crimes.
+* So if you want to get a better understanding of violence in America the last many years, what do you do?
 
 <div class="sellit">
-    Head on over to ![Project part 1](https://dpirv.shinyapps.io/dp_project/), See an interactive graph that lets you break violent crimes down one at a time or all at once on a state by state basis.<br/>
-    Go. See. Learn!
+<p>Head on over to <a href="https://dpirv.shinyapps.io/dp_project/">Project Part 1</a></p>
+<p class="simple_ital">(The first part of this two-part project for the Coursera Developing Data Products class)</p>
+    <p>There you will find an interactive application that will allow you to explore the raw numbers on violent crime, state by state, one type of crime at a time or all at once.</p>
 </div>
 
+<div class="finl">See. Explore. Learn.</div>
 
+<div class="exeunt">
+    Thanks for playing!
+</div>
 
 
 
