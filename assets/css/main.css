@@ -1,0 +1,59 @@
+.explainer {
+  font-style: italic;
+  font-size: 0.7em;
+  color: green;
+}
+
+.pic_credit{
+  font-style: italic;
+  font-size: 0.5em;
+  padding-top: 0.5em;
+}
+
+.plotter {
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+.r {
+  line-height: 1.1em;
+  font-size: 0.7em;
+  margin-top: 4px;
+}
+
+ul li {
+  line-height: 1.2em;
+  font-size: 0.7em;
+  margin-top: 3px;
+}
+
+.emphatic {
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.sellit p{
+  font-size: +2;
+  color: blue;
+  line-height: 1.2em;
+}
+
+.finl {
+  font-size: 24pt;
+  color: green;
+  text-align: center;
+  font-weight: bold;
+}
+
+.simple_ital {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.exeunt {
+  padding-top: 6em;
+  float: right;
+  color: gray;
+  font-style: italic;
+}
